@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto sans', sans-serif;
+    box-sizing: border-box;
+}
+
+.container-main {
+    background-image: url('../img/Header\ Background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 100px;
+    text-align: center;
+}
+
+.container-main h1 {
+    font-size: 80px;
+    line-height: 60px;
+    font-weight: bold;
+    font-family: 'Braah One';
+    text-align: center;
+}
+
+.container-main p {
+    max-width: 80rem;
+    margin: 40px 0;
+}
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0px 0px 20px #00000060;
+}
+
+.button-group {
+    display: flex;
+    justify-content: center;
+}
+
+.button-group button {
+    border: 0;
+    border-radius: 5rem;
+    padding: 15px 25px;
+    margin: 20px;
+    display: flex;
+}
+
+.button-group button:nth-child(2)
+
+/*botão 2*/
+    {
+    background-color: #23272a;
+    color: #fff;
+}
+
+
+/*container-second*/
+
+.container-second {
+    display: inline-flex;
+    margin-top: 80px;
+    margin-left: 450px;
+}
+
+.container-second h2 {
+    font-family: sans-serif;
+    font-weight: 800;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.container-3 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(246, 233, 233);
+}
+
+.container-3 h1 {
+    margin-top: 80px;
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: bold;
+    font-family: 'Braah One';
+    text-align: center;
+}
+
+.container-3 p {
+    margin-top: 24px;
+}
+
+@media screen and (max-width: 1190px) {
+    .container-second, .container-3 {
+        flex-direction: column;
+    }
+}
